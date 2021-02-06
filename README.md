@@ -1,20 +1,22 @@
 # Comparison-of-Machine-Learning-Algorithms-with-Boston-Housing-Data
 
 The machine learning models used for comparison are Random Forest, Extreme Gradient Boosting, Light GBM , Cat Boost .These are developed and evaluated based on the performance and the predictive power of a model trained and tested on data collected from houses in Boston’s suburbs.
+
 In general, all models performs slightly worse on test set and thus we have some variance present, but with above specifications Cat Boost performs best on unseen test set, followed closely by GBM. 
+
 Below is a summary and illustration of model performances on test subset of data:
 
 ##               Model	                    Score
 
-     Random Forest	                     77.209004
+Random Forest	                     77.209004
 
-    Extreme Gradient Boosting            83.170717
+Extreme Gradient Boosting           83.170717
 
-     Light GBM	                          88.130189
+Light GBM	                          88.130189
 
-     Cat Boost	                          90.008318
+Cat Boost	                          90.008318
      
-## what is Random forest
+## What is Random Forest?
 Random forest is a flexible, easy to use machine learning algorithm that produces, even without hyper-parameter tuning, a great result most of the time. It is also one of the most used algorithms, because of its simplicity and diversity (it can be used for both classification and regression tasks). Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.
 
 Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.
@@ -34,7 +36,7 @@ Portability: Runs smoothly on Windows, Linux, and OS X.
 Languages: Supports all major programming languages including C++, Python, R, Java, Scala, and Julia.
 Cloud Integration: Supports AWS, Azure, and Yarn clusters and works well with Flink, Spark, and other ecosystems.
 
-## what is LightGBM?
+## What is LightGBM?
 Light Gradient Boosted Machine, or LightGBM for short, is an open-source library that provides an efficient and effective implementation of the gradient boosting algorithm.
 
 LightGBM extends the gradient boosting algorithm by adding a type of automatic feature selection as well as focusing on boosting examples with larger gradients. This can result in a dramatic speedup of training and improved predictive performance.
@@ -44,6 +46,7 @@ As such, LightGBM has become a de facto algorithm for machine learning competiti
 As such, LightGBM refers to the open-source project, the software library, and the machine learning algorithm. In this way, it is very similar to the Extreme Gradient Boosting or XGBoost technique.
 
 LightGBM was described by Guolin Ke, et al. in the 2017 paper titled “LightGBM: A Highly Efficient Gradient Boosting Decision Tree.” The implementation introduces two key ideas: GOSS and EFB.
+
 ## What is CatBoost?
 CatBoost is a recently open-sourced machine learning algorithm from Yandex. It can easily integrate with deep learning frameworks like Google’s TensorFlow and Apple’s Core ML. It can work with diverse data types to help solve a wide range of problems that businesses face today. To top it up, it provides best-in-class accuracy.
 

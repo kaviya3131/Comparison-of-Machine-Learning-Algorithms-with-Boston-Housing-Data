@@ -8,13 +8,13 @@ Below is a summary and illustration of model performances on test subset of data
 
 ##               Model	                    Score
 
-Random Forest	                     77.209004
+Random Forest  -  77.209004
 
-Extreme Gradient Boosting           83.170717
+Extreme Gradient Boosting  -  83.170717
 
-Light GBM	                          88.130189
+Light GBM  -  88.130189
 
-Cat Boost	                          90.008318
+Cat Boost  -  90.008318
      
 ## What is Random Forest?
 Random forest is a flexible, easy to use machine learning algorithm that produces, even without hyper-parameter tuning, a great result most of the time. It is also one of the most used algorithms, because of its simplicity and diversity (it can be used for both classification and regression tasks). Random forest is a supervised learning algorithm. The "forest" it builds, is an ensemble of decision trees, usually trained with the “bagging” method. The general idea of the bagging method is that a combination of learning models increases the overall result.

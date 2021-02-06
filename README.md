@@ -8,7 +8,7 @@ The accuracy scores are :
 
      Random Forest	                     77.209004
 
-    	Extreme Gradient Boosting	      83.170717
+    Extreme Gradient Boosting	      83.170717
 
      Light GBM	                          88.130189
 

@@ -6,10 +6,10 @@ The accuracy scores are :
 
 ##               Model	                    Score
 
-     Random Forest	                  77.209004
+     Random Forest	                     77.209004
 
     	Extreme Gradient Boosting	      83.170717
 
-       Light GBM	                      88.130189
+     Light GBM	                          88.130189
 
-      Cat Boost	                      90.008318
+     Cat Boost	                          90.008318
